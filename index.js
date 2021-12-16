@@ -20,3 +20,20 @@ suite
         this.forEach(result => console.log(`${result.name} averaged ${result.stats.mean * 1000} milliseconds.`));
     })
     .run();
+
+
+    // Password checker for capitol letter lowercase letter punctuation char at least 7 char less than 31
+// var regex = /^[a-zA-Z0-9!\%\*\/\)\(+=._,?-]{7,31}$/g
+
+//     function test (str) {
+//         if (!regex.test(str)) {
+//             console.log('false');
+//         }
+//         else if (str.toLowerCase() === 'password' ) {
+//             console.log('password false');
+//         } else {
+//             console.log('true');
+//         }
+//     }
+    
+//     test('hhhhhhhhhh*hhhhhhhhhhhhhhhhhhh');
